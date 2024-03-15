@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+	background-color:#E5E7E9;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin:0px;
+}
+
+img{
+	width: 250px;
+	height: 200px;
+}
+input[type=submit],input[type=reset]{
+	background-color:cornflowerblue;
+	color: white;
+	padding: 5px;
+	border: none;
+}
+a:link, a:visited{background-color:  #c0c0c0;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+#tabela_rest{
+	width: 100%;
+	border-collapse: collapse;
+}
+#tabela_rest td, #tabela_rest th{
+	border: 1px solid #ddd;
+	padding: 5px;
+	text-align: center;
+}
+#tabela_rest th{
+	background-color:cornflowerblue;
+	color: white;
+}
+#tabela_rest tr:hover{
+	background-color: #ddd;
+}
+#foto{
+	width: 100px;
+	height:80px;
+}
